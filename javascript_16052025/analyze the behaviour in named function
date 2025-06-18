@@ -1,1 +1,28 @@
+1. Function with a Return Value :
+
+function addTwoNumbers(x, y) {
+    let result = x + y;
+    return result;
+}
+
+let total = addTwoNumbers(2, 3);
+console.log(total);  // Output: 5
+
+2. Function Without a Return Value :
+
+function displaySum(x, y) {
+    console.log(x + y);
+}
+
+displaySum(2, 3);  // Output: 5
+
+3. Arrow Function :
+
+const greet = () => {
+    console.log("Hello Deep");
+};
+
+console.log(greet);     // Output: [Function: greet]
+console.log(greet());   // Output: Hello Deep, undefined
+greet();                // Output: Hello Deep
 
