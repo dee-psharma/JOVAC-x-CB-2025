@@ -1,1 +1,17 @@
-file detail here
+------ What is Garbage Collectors ?
+In JavaScript, garbage collection is the process by which the JavaScript engine automatically frees up memory that is no longer in use, so that it can be reused.
+
+----- Why garbage collectors are needed ?
+ JavaScript stores objects, arrays, and functions in memory. But memory is limited. So, if unused memory isn't cleaned up, it can slow down or even crash your app.
+
+----- Key concept of Garbage collectors in javascript
+1. Automatic Memory Management : Developers don’t need to manually allocate or deallocate memory like in C/C++.
+2. Reachability : The GC determines whether an object is "reachable" or not. An object is considered reachable if it can be accessed or used in the program (e.g., via variables, closures, or references).
+If an object is no longer reachable, it becomes eligible for garbage collection.
+3. Mark-and-Sweep Algorithm : he Mark-and-Sweep Algorithm starts by marking all reachable objects from the root.
+It then sweeps through memory and removes all unmarked objects.
+
+
+
+
+
